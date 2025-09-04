@@ -9,7 +9,7 @@
 /* pagina principal */
 
 .corpo-principal{
-     background: black url('imagens/fundo-madeira.jpg') center center/cover no-repeat fixed;
+     background: black url('/imagens/fundo-madeira.jpg') center center/cover no-repeat fixed;
 }
 .img-tela{
     display: block;
@@ -18,7 +18,6 @@
     height: 768px;
 }
 .btn-navegacao{
-    position: relative;
     display: block;
     margin-bottom: 30px;
     border: none;
@@ -37,7 +36,11 @@
 
 
 /* Pagina de exibicao */
-iframe{
-    width: 100px;
-    height: 100px;
+.iframe{
+    position: absolute;
+    top: 21.2px;
+    left: 33.2%;
+    width: 326px;
+    height: 723px;
+    border-radius: 36px;
 }
