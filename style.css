@@ -3,6 +3,7 @@
 *{
     padding: 0;
     margin: 0;
+    border: none;
 }
 body{
      background: black url('imagens/fundo-madeira.jpg') center center/cover no-repeat fixed;
@@ -12,4 +13,18 @@ body{
     margin: auto;
     width: 372px;
     height: 768px;
+}
+.btn-navegacao{
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+    border: none;
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.social-img{
+    border-radius: 50%;
+    width: 100%;
 }
