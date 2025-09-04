@@ -3,9 +3,12 @@
 *{
     padding: 0;
     margin: 0;
-    border: none;
+    box-sizing: border-box;
 }
-body{
+
+/* pagina principal */
+
+.corpo-principal{
      background: black url('imagens/fundo-madeira.jpg') center center/cover no-repeat fixed;
 }
 .img-tela{
@@ -24,7 +27,17 @@ body{
     background-color: transparent;
     cursor: pointer;
 }
+.social-img:hover{
+    border: 2px solid white;
+}
 .social-img{
     border-radius: 50%;
     width: 100%;
+}
+
+
+/* Pagina de exibicao */
+iframe{
+    width: 100px;
+    height: 100px;
 }
