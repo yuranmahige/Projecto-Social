@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+     background: black url('imagens/fundo-madeira.jpg') center center/cover no-repeat fixed;
+}
+.img-tela{
+    display: block;
+    margin: auto;
+    width: 372px;
+    height: 768px;
+}
