@@ -9,13 +9,21 @@
 /* pagina principal */
 
 .corpo-principal{
-     background: black url('/imagens/fundo-madeira.jpg') center center/cover no-repeat fixed;
+    position: relative;
+    background: black url('/imagens/fundo-madeira.jpg') center center/cover no-repeat fixed;
 }
 .img-tela{
     display: block;
     margin: auto;
     width: 372px;
     height: 768px;
+}
+.navegacao{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 50px;
 }
 .btn-navegacao{
     display: block;
@@ -38,9 +46,9 @@
 /* Pagina de exibicao */
 .iframe{
     position: absolute;
-    top: 21.2px;
+    top: 20px;
     left: 33.2%;
     width: 326px;
     height: 723px;
-    border-radius: 36px;
+    border-radius: 35px;
 }
