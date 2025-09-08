@@ -10,28 +10,34 @@
 
 .corpo-principal{
     position: relative;
-    background: black url('/imagens/fundo-madeira.jpg') center center/cover no-repeat fixed;
+    height: 100vh;
+    width: 100vw;
+    background: black url('/imagens/fundo-madeira.jpg') top center/cover no-repeat fixed;
 }
-.img-tela{
-    display: block;
-    margin: auto;
-    width: 372px;
-    height: 768px;
+.tela-celular_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 640px;
+    height: 1285px;
+    background:  url('/imagens/tela-celular.png') top center/cover no-repeat fixed;
 }
 .navegacao{
     float: right;
 }
 .btn-navegacao{
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-right: 20px;
     border: none;
-    width: 80px;
-    height: 80px;
+    width: 130px;
     background-color: transparent;
     cursor: pointer;
 }
 .social-img:hover{
-    border: 2px solid white;
+    border: 4px solid white;
 }
 .social-img{
     border-radius: 50%;
@@ -40,11 +46,4 @@
 
 
 /* Pagina de exibicao */
-.iframe{
-    position: absolute;
-    top: 20px;
-    left: 33.2%;
-    width: 326px;
-    height: 723px;
-    border-radius: 35px;
-}
+
