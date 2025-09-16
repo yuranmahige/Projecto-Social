@@ -15,7 +15,7 @@
     margin: 25px;
     float: right;
 }.btn{
-    width: 100px;
+    width: 80px;
     margin-bottom: 10px;
     background-color: transparent;
     border: none;
@@ -27,9 +27,18 @@
 }
 
 .tela-celular{
-    max-width: 372px;
-    height: 720px;
+    position: relative;
+    max-width: 362px;
     margin: auto;
+    padding-top: 20px;
 }.tela-celular_img{
     width: 100%;
+}
+.exibir{
+    position: absolute;
+    top: 41px;
+    left: 23px;
+    width: 316px;
+    height: 682px;
+    background-color: red;
 }
