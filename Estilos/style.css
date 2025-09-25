@@ -36,8 +36,9 @@ body{
 }
 .tela-celular{
     position: relative;
-    width: 90%;
-    height: 69vh;
+    max-width: 100%;
+    width: 360px;
+    height: 65vh;
     margin: auto;
     padding-top: 10px;
 }
