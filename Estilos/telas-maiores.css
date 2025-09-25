@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 653px) {
+    .nav_btn{
+        display: block;
+        overflow: hidden;
+        float: right;
+        padding: 5%;
+    }
+    .tela-celular{ 
+        width: 362px;
+        height: 100%;
+    }
+    .btn{ margin-bottom: 12%}
+}
