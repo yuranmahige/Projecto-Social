@@ -10,7 +10,7 @@ body{
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: black url('') no-repeat top center/cover fixed;
+    background: black url('../imagens/fundo.jpg') no-repeat top center/cover fixed;
 }
 .nav_btn{
     display: flex;
